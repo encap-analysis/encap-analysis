@@ -59,6 +59,12 @@
 <p><center><img src="Images/methods.png"/></center></p>
 <p><center>Figure 3: Types of methods responsible for exposing members</center></p>
 
+<p>For all the open-source projects and libraries listed, our approach processes a total number of 486.4k lines of code and 5963 classes in 218 seconds (not including the time for the generation of ASTs by JDT). On average, the throughput is 2.15 KLOC/s and 27.35 classes/s. The efficiency is achieved mainly because that our approach is modular and scalable for bigger projects. Note that the experiments are performed on a prototype with nearly no optimization.</p>
+
+<p>Figure 4 shows a sample of the presentation of our analysis results of a class with potential encapsulation problems.</p>
+<p><center><img src="Images/results.png"/></center></p>
+<p><center>Figure 4: A sample of the analysis results</center></p>
+
 The benchmarks and detailed experimental results can be found <a href="https://github.com/encap-analysis/encap-analysis/tree/gh-pages/encap">here</a>.
 
 <h3>
